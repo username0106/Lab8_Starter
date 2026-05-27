@@ -1,3 +1,6 @@
 # Lab 8 - Network & Service Workers
 Graceful Degradation and Service Workers
 Graceful degradation is the practice of building an application to work at its best under ideal conditions, while still providing a usable experience when something goes wrong. Service workers are a direct implementation of this principle in the context of network dependency. Without a service worker, a web app completely fails the moment the network is unavailable — the HTML, CSS, JavaScript, and images simply cannot load, leaving the user with a blank or broken page. By adding a service worker, we intercept every network request and serve cached responses when the network is slow or entirely absent, so the app continues to function even in the worst-case scenario. In this lab, the service worker acts as the safety net that catches network failures and gracefully falls back to cached assets, ensuring users still see the recipe cards they loaded previously rather than an error screen. In other words, the service worker is the technical mechanism that gives our app its graceful degradation — it allows us to start with a fully network-connected experience and degrade gracefully when that connection disappears.
+
+
+Pages URL - https://username0106.github.io/Lab8_Starter/
